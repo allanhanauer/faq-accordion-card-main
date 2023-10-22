@@ -1,0 +1,42 @@
+@media only screen and (max-width: 800px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    position: relative;
+}
+    main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    overflow: visible;
+    height: auto;
+    background: url(../images/bg-pattern-mobile.svg) no-repeat 60px -10px;
+    background-color: white;
+  }
+  .box{
+    width: 250px;
+  }
+  .cont-img #img-main {
+    display: none;
+  }
+  .cont-img{
+    position: absolute;
+    top: -165px;
+    left: 28px;
+    background-image: url(../images/illustration-woman-online-mobile.svg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+}

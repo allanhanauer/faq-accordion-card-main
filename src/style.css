@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --Soft-red: hsl(14, 88%, 65%);
+  --background-1: hsl(273, 75%, 66%);
+  --background-2: hsl(240, 73%, 65%);
+  --text--Very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --text-Dark-grayish-blue: hsl(240, 6%, 50%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans";
+  font-size: 12px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(var(--background-1), var(--background-2));
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  display: flex;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 5px 5px 35px var(--text--Very-dark-grayish-blue);
+  overflow: hidden;
+  top: 26.9%;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 500px;
+  background: url(../images/bg-pattern-desktop.svg) -590px -290px no-repeat;
+  background-color: white;
+}
+main h2 {
+  font-size: 32px;
+  color: var(--text--Very-dark-grayish-blue);
+}
+main p {
+  color: var(--text-Dark-grayish-blue);
+}
+main h4 {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--Very-dark);
+}
+.cont-img {
+  width: 425px;
+  height: 100%;
+}
+.cont-text {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  width: 450px;
+  height: 100%;
+}
+.cont-img #img-main {
+  position: absolute;
+  left: -85px;
+  top: 70px;
+}
+h2{
+    margin-bottom: 40px;
+}
+header{
+    position: absolute;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+header #img-box {
+  position: absolute;
+  top: 518px;
+  left: -582px;
+  z-index: 2;
+}
+#title {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  height: 90%;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+h4:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+.box {
+  display: flex;;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.Aarrow{
+    rotate : 180deg;
+}
+.box p{
+    display: none;
+}
+.activate p{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--text-Dark-grayish-blue);
+}
+.activate h4{
+    font-weight: 700;
+}
+/* #region */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* #endregion */
